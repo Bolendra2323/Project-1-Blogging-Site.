@@ -1,7 +1,5 @@
 # Uranium
 Discussion:->
-PROJECT-1-REVIEW-DISCUSSION
-Project 1 → Blogging Site
 Project Overview →
 In this project we were required to implement the backend part of Blogging Site.
 We can relate this Project with WordPress,
