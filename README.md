@@ -1,39 +1,73 @@
 # Uranium
 Discussion:->
 Project Overview →
+
 In this project we were required to implement the backend part of Blogging Site.
+
 We can relate this Project with WordPress,
+
 where authorized user can publish blogs , articles and can also update and
+
 delete their respective articles.
+
 Problem Statements →
+
 It consist of total 2 Models (Blog-Model, Author-Model)
+
 Blog-Controller→ It consist of 5 API’s (1-Post , 1-Get,1-Put,2-Delete)
+
 Author-Controller → It consist of 2 API’s(2-Post)
+
 Used Appropriate Status code , Used middleware for authentication ,also
+
 implemented authorisation so that only valid author can create,edit, update or
+
 delete their respective article.
+
 Approach —>
+
 ● Before starting the project we download different dependencies.
+
 ● Dependencies like —>
+
 ○ Express→ (This will help us in creating different api endpoints),
+
 ○ Mongoose→ (This will help us to work with mongodb easily)
+
 ○ Nodemon→ (This will help us in restarting the node application
+
 whenever some changes(even the minute change) in the files are noticed
+
 in the directory)
+
 ● Then we created SRC folder where all other sub folders are stored in a
+
 hierarchical manner.We have created Sub folders like Models, routes,
+
 Validators. Controller, Middleware,
+
 ● Initiated the project by creating Schemas for Blog and Author then with the
+
 further continuation we have stored end points in route files. Basically route file
+
 is created for storing all the end points .
+
 ● Then in the question it was mentioned that only the author of the respective
+
 blog can perform the following operation i.e, edit, delete , update. So in order to
+
 make this possible we have created one file called middleware , where the user
+
 was authenticated by using JWT and authorized.
+
 ● In controller folder ,we have created files for Blog and Author where it has
+
 their respective API’s . In this folder we have wrote all the functions that were
+
 supposed to perform.
 
+
+***********************************************************************************************************************************************************
 Repository for backend cohort - Uranium
 
 ## Blogging Site Mini Project Requirement
